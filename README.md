@@ -88,6 +88,10 @@ And finally. in between the open `{` and close `}`, output the content from the 
 document.write("<h2>" + links[i]["name"] + "</h2>");
 ```
 
+## Trying It Out
+
+Continue adding code to the `for` loop so all of the content from the array is displayed using well formatted HTML.
+
 ## Tutorial Requirements:
 
 * [Visual Studio Code](https://code.visualstudio.com/) or [Brackets](http://brackets.io/) (or any code editor)
