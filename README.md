@@ -73,3 +73,27 @@ links[2] = {
   description: "The World Wide Web Consortium is the main international standards organization for the World Wide Web."
 }
 ```
+
+Next, let's create a loop that runs once for each item in the `links` array:
+
+```javascript
+for(var i = 0; i < links.lengt; i ++)
+{
+}
+```
+
+And finally. in between the open `{` and close `}`, output the content from the array. Here is an example of a `document.write()` command outputting the link name:
+
+```javascript
+document.write("<h2>" + links[i]["name"] + "</h2>");
+```
+
+## Tutorial Requirements:
+
+* [Visual Studio Code](https://code.visualstudio.com/) or [Brackets](http://brackets.io/) (or any code editor)
+
+Full tutorial URL: https://codeadam.ca/learning/javascript-for-loops.html
+
+<a href="https://codeadam.ca">
+<img src="https://codeadam.ca/images/code-block.png" width="100">
+</a>
