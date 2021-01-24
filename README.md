@@ -17,9 +17,59 @@ The code in between the open `(` and close `)` contains three pieces:
 
 For example, the folloing loop will repeat five times:
 
-``javascript
+```javascript
 for(var i = 0; i < 5; i ++)
 {
   // Code to repeat as long as the condition is true
+}
+```
+
+## Loops and Arrays
+
+Combining loops with arrays makes displaying data from an array quite easy:
+
+```javascript
+var colours = new Array();
+colours[0] = "Red";
+colours[1] = "Blue";
+colours[2] = "Green";
+
+for(var i = 0; i < colours.length; i ++)
+{
+  document.write("<p>Colour number " + i + " is " + colours[i] + "</p>");
+}
+```
+
+## Data
+
+One of the most common coding tasks is iterating through a list of data and displaying the data using well formatted HTML. This could include lopping through a list of records from a MySQL database, looping through a JSON or XML document, or lopping through a list of data stored in an array. Here is a typical list of coding resources:
+
+<table>
+<tr><th>Name</th><th>URL</th><th>Description</th></tr>
+<tr><td>W3Schools</td><td>http://www.w3schools.com/</td><td>W3Schools is a web developer information website, with tutorials and references relating to web development topics such as HTML, CSS, JavaScript and PHP.</td></tr>
+<tr><td>Code Academy</td><td>https://www.codecademy.com/</td><td>Codecademy is an online interactive platform that offers free coding classes in 9 different programming languages.</td></tr>
+<tr><td>W3</td><td>http://www.w3.org/</td><td>The World Wide Web Consortium is the main international standards organization for the World Wide Web.</td></tr>
+</table>
+
+Let's place this data in a JavaScript array:
+
+```javascript
+var links = [];
+
+links[0] = {
+  name: "W3Schools",
+  url: "http://www.w3schools.com/",
+  description: "W3Schools is a web developer information website, with tutorials and references relating to web development topics such as HTML, CSS, JavaScript and PHP."
+};
+links[1] = {
+  name: "Code Academy",
+  url: "https://www.codecademy.com/",
+  description: "Codecademy is an online interactive platform that offers free coding classes in 9 different programming languages."
+};
+
+links[2] = {
+  name: "W3",
+  url: "http://www.w3.org/",
+  description: "The World Wide Web Consortium is the main international standards organization for the World Wide Web."
 }
 ```
