@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+    <title>JavaScript For Loops</title>
+</head>
+<body>
+
+    <h1>JavaScript For Loops</h1>
+
+    <script>
+
+    var links = [];
+
+    links[0] = {
+        name: "W3Schools",
+        url: "http://www.w3schools.com/",
+        description: "W3Schools is a web developer information website, with tutorials and references relating to web development topics such as HTML, CSS, JavaScript and PHP."
+    };
+
+    links[1] = {
+        name: "Code Academy",
+        url: "https://www.codecademy.com/",
+        description: "Codecademy is an online interactive platform that offers free coding classes in 9 different programming languages."
+    };
+
+    links[2] = {
+        name: "W3",
+        url: "http://www.w3.org/",
+        description: "The World Wide Web Consortium is the main international standards organization for the World Wide Web."
+    }
+
+    for(var i = 0; i < links.length; i ++)
+    {
+        document.write("<h2>" + links[i]["name"] + "</h2>");
+    }
+
+    </script>
+
+</body>
+</html>
