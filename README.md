@@ -1,4 +1,4 @@
-# javascript-for-loops
+# A Basic Introduction to JavaScript and For Loops
 
 JavaScript `for` loops allow code to repeat a block of code. A typical `for` loop has the following structure:
 
