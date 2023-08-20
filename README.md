@@ -92,11 +92,14 @@ document.write("<h2>" + links[i]["name"] + "</h2>");
 
 Continue adding code to the `for` loop so all of the content from the array is displayed using well formatted HTML.
 
-## Tutorial Requirements:
+> Full tutorial URL:  
+> https://codeadam.ca/learning/javascript-for-loops.html
 
-* [Visual Studio Code](https://code.visualstudio.com/) or [Brackets](http://brackets.io/) (or any code editor)
+***
 
-Full tutorial URL: https://codeadam.ca/learning/javascript-for-loops.html
+## Repo Resources
+
+* [Visual Studio Code](https://code.visualstudio.com/)
 
 <a href="https://codeadam.ca">
 <img src="https://codeadam.ca/images/code-block.png" width="100">
