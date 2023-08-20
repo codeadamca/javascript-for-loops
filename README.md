@@ -100,6 +100,7 @@ Continue adding code to the `for` loop so all of the content from the array is d
 ## Repo Resources
 
 * [Visual Studio Code](https://code.visualstudio.com/)
+* [W3Schools - JavaScript](https://www.w3schools.com/js/)
 
 <a href="https://codeadam.ca">
 <img src="https://codeadam.ca/images/code-block.png" width="100">
