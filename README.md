@@ -102,6 +102,7 @@ Continue adding code to the `for` loop so all of the content from the array is d
 * [Visual Studio Code](https://code.visualstudio.com/)
 * [W3Schools - JavaScript](https://www.w3schools.com/js/)
 
+<br>
 <a href="https://codeadam.ca">
-<img src="https://codeadam.ca/images/code-block.png" width="100">
+<img src="https://cdn.codeadam.ca/images@1.0.0/codeadam-logo-coloured-horizontal.png" width="200">
 </a>
